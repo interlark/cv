@@ -1,0 +1,254 @@
+{
+  "title": "Middle Python Developer",
+
+  "profile_name": "Andy Trofimov",
+
+  "language": "Language",
+
+  "about_me": {
+    "title": "About me",
+    "details": [
+      "Python programmer with extensive experience in Web development.",
+      "I use accumulated experience as well as comprehend new technologies and tools to implement my ideas in the world of client-server applications.",
+      "Looking for a ambitious company for collaborative developing Web solutions."
+    ]
+  },
+
+  "education": {
+    "title": "Education",
+    "details": [
+      "Bachelor of Computer Science",
+      "Perm State University",
+      "Faculty of Mechanics and Mathematics",
+      "2009 - 2014"
+    ]
+  },
+
+  "work_experience": {
+    "title": "Work experience",
+    "details": [
+      {
+        "title": "Self-employed",
+        "icon": "company-self-employed",
+        "link": "https://interlark.ru",
+        "period": "2018 - 2022",
+        "jobs": [
+          {
+            "title": "Developing turnkey projects, such as Web sites and services, Telegram bots, Blender plugins, mobile apps, parsers and etc.",
+            "stack": ["Python", "JavaScript", "HTML", "CSS"]
+          }
+        ]
+      },
+      {
+        "title": "ICS",
+        "icon": "company-ics",
+        "link": "https://ivs-corp.ru",
+        "period": "2016 - 2018",
+        "jobs": [
+          {
+            "title": "Developing and maintaining Web services.",
+            "stack": ["ASP.NET", "C#", "PostgreSQL"]
+          },
+          {
+            "title": "Writing, debugging and testing Web сomponents.",
+            "stack": ["HTML", "JavaScript", "C#"]
+          },
+          {
+            "title": "Profiling and optimizing backends.",
+            "stack": [".NET", "Mono"]
+          }
+        ]
+      },
+      {
+        "title": "Ural Geo",
+        "icon": "company-uralgeo",
+        "link": "https://уралгео.рф",
+        "period": "2013 - 2015",
+        "jobs": [
+          {
+            "title": "Developing centralized remote data access GIS extensions.",
+            "stack": ["C++", "PostgreSQL"]
+          },
+          {
+            "title": "Creating Windows Shell Extension.",
+            "stack": ["C++", "WinAPI"]
+          },
+          {
+            "title": "Making GIS Web-oriented cartographic projects.",
+            "stack": ["HTML", "JavaScript", "Python"]
+          }
+        ]
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Personal projects",
+    "details": [
+      {
+        "title": "USTVGO IPTV",
+        "icon": "project-ustvgo",
+        "stack": ["Python", "Aiohttp", "Tkinter"],
+        "link": "https://github.com/interlark/ustvgo-iptv",
+        "description": "Cross-platform traffic proxying application that allows you to watch free IPTV using well-known USTVGO service.",
+        "features_title": "Features",
+        "features": [
+          "Auto auth-key rotation",
+          "Built-in auto-update TV Guide",
+          "Dark and light icons themes",
+          "GUI"
+        ]
+      },
+      {
+        "title": "SMS Poll",
+        "icon": "project-smspoll",
+        "stack": ["Python", "FastAPI", "Tortoise ORM", "ReactJS"],
+        "link": "https://github.com/interlark/sms-poll",
+        "description": "Mobile app that let you create text message audience polling with your Android phone for your audience during competitions, conferences or any other meetings.",
+        "features_title": "Features",
+        "features": [
+          "Doesn't need to be connected to a PC, Internet or any other 3rd-party services",
+          "Dark and light UI themes"
+        ]
+      },
+      {
+        "title": "Parser 2GIS",
+        "icon": "project-parser2gis",
+        "stack": ["Python", "Tkinter", "CDP"],
+        "link": "https://github.com/interlark/parser-2gis",
+        "description": "Advanced scraper for online catalog 2GIS which is usful for doing marketing analytics, growing customer base and finding new business partners.",
+        "features_title": "Features",
+        "features": [
+          "Antibot detection bypass",
+          "URLs generator with city and rubrics filters",
+          "CSV and JSON output formats",
+          "GUI"
+        ]
+      },
+      {
+        "title": "QDC Converter",
+        "icon": "project-qdcconverter",
+        "stack": ["Python", "Tkinter", "I18N"],
+        "link": "https://github.com/interlark/qdc-converter",
+        "description": "Desktop application that converts Garmin Quickdraw™ proprietary binary fishing map into open CSV tables and GRD rasters.",
+        "features_title": "Features",
+        "features": [
+          "Support multiprocessing calculations for speeding up proccessing",
+          "CSV and GRD output formats",
+          "GUI"
+        ]
+      }
+    ]
+  },
+
+  "interests": {
+    "title": "Interests",
+    "details": [
+      { "name": "Sport", "icon": "running_man" },
+      { "name": "Japanese language", "icon": "hiragana" },
+      { "name": "InfoSec", "icon": "shield" },
+      { "name": "Arduino", "icon": "arduino" }
+    ]
+  },
+
+  "certificates": {
+    "title": "Certificates",
+    "details": [
+      {
+        "name": "Software Engineering Methods",
+        "url": "https://www.intuit.ru/verifydiplomas/101129630"
+      },
+      {
+        "name": "Standartization and Certification of Software",
+        "url": "https://www.intuit.ru/verifydiplomas/101129880"
+      },
+      {
+        "name": "Analysis of the Requirements for Information Systems",
+        "url": "https://www.intuit.ru/verifydiplomas/101129804"
+      },
+      {
+        "name": "The basics of software engineering managments",
+        "url": "https://www.intuit.ru/verifydiplomas/101129771"
+      },
+      {
+        "name": "Information Systems Project Management",
+        "url": "https://www.intuit.ru/verifydiplomas/101129238"
+      }
+    ]
+  },
+
+  "contacts": {
+    "title": "Contacts",
+    "details": [
+      {
+        "icon": "email",
+        "address": "interlark@gmail.com",
+        "href": "mailto:interlark@gmail.com",
+        "is_external": false
+      },
+      {
+        "icon": "telegram",
+        "address": "https://t.me/interlark",
+        "href": "https://t.me/interlark",
+        "is_external": true
+      },
+      {
+        "icon": "phone",
+        "address": "+7 (952) 645-36-56",
+        "href": "tel:+79526453656",
+        "is_external": false
+      },
+      {
+        "icon": "github",
+        "address": "https://github.com/interlark",
+        "href": "https://github.com/interlark",
+        "is_external": true
+      }
+    ]
+  },
+
+  "skills": {
+    "title": "Skills",
+    "details": [
+      { "name": "Python", "value": 95 },
+      { "name": "JavaScript", "value": 80 },
+      { "name": "HTML", "value": 80 },
+      { "name": "CSS", "value": 80 },
+      { "name": "SQL / PostgreSQL", "value": 80 },
+      { "name": "C# / C++", "value": 60 },
+      { "name": "Bash", "value": 60 },
+      { "name": "Docker", "value": 60 },
+      { "name": "Git", "value": 75 },
+      { "name": "Inkscape", "value": 60 }
+    ]
+  },
+
+  "tools": {
+    "title": "Tools",
+    "details": [
+      { "name": "FastAPI", "value": 85 },
+      { "name": "Aiohttp", "value": 75 },
+      { "name": "Flask", "value": 70 },
+      { "name": "SQLAlchemy", "value": 70 },
+      { "name": "Asyncio", "value": 70 },
+      { "name": "Pytest", "value": 80 },
+      { "name": "Flake8", "value": 90 },
+      { "name": "Mypy", "value": 80 },
+      { "name": "Tkinter", "value": 70 },
+      { "name": "CDP / Selenium", "value": 75 },
+      { "name": "ReactJS", "value": 60 },
+      { "name": "Chakra UI", "value": 60 },
+      { "name": "Parcel", "value": 60 },
+      { "name": "VSCode", "value": 90 },
+      { "name": "Linux / Debian", "value": 90 }
+    ]
+  },
+
+  "languages": {
+    "title": "Languages",
+    "details": [
+      { "name": "Russian", "value": 100 },
+      { "name": "English", "value": 70 }
+    ]
+  }
+}
