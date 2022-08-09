@@ -21,7 +21,7 @@
   "scripts": {
     "start": "parcel",
     "output:clean": "rm -rf dist/",
-    "output:copy_og_image": "cp src/images/og_image.png dist/og_image.png",
-    "build": "npm run output:clean && parcel build --public-url '.' && npm run output:copy_og_image"
+    "output:copy_social_image": "cp src/images/social_image.png dist/social_image.png",
+    "build": "npm run output:clean && parcel build --public-url '.' && npm run output:copy_social_image"
   }
 }
