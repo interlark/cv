@@ -9,8 +9,7 @@
     "title": "About me",
     "details": [
       "Python programmer with extensive experience in Web development.",
-      "I use accumulated experience as well as comprehend new technologies and tools to implement my ideas in the world of client-server applications.",
-      "Looking for a ambitious company for collaborative developing Web solutions."
+      "I use accumulated experience as well as comprehend new technologies and tools to implement my ideas in the world of client-server applications."
     ]
   },
 
@@ -27,6 +26,26 @@
   "work_experience": {
     "title": "Work experience",
     "details": [
+      {
+        "title": "Inline Telecom Solutions",
+        "icon": "inline-telecom-solutions",
+        "link": "https://inlinetelecom.ru/about",
+        "period": "2022-2023",
+        "jobs": [
+          {
+            "title": "Web-developing",
+            "stack": ["Python", "JavaScript", "HTML", "CSS"]
+          },
+          {
+            "title": "Developing systems for collecting and analyzing Web marketing data, network activity, resources accounting",
+            "stack": ["Python", "Django", "PostgreSQL"]
+          },
+          {
+            "title": "Supporting and developing projects for networks of large telecom operators",
+            "stack": ["Python", "FastAPI", "ReactJS"]
+          }
+        ]
+      },
       {
         "title": "Self-employed",
         "icon": "company-self-employed",
@@ -46,15 +65,15 @@
         "period": "2016 - 2018",
         "jobs": [
           {
-            "title": "Developing and maintaining Web services.",
+            "title": "Developing and maintaining Web services",
             "stack": ["ASP.NET", "C#", "PostgreSQL"]
           },
           {
-            "title": "Writing, debugging and testing Web сomponents.",
+            "title": "Writing, debugging and testing Web сomponents",
             "stack": ["HTML", "JavaScript", "C#"]
           },
           {
-            "title": "Profiling and optimizing backends.",
+            "title": "Profiling and optimizing backends",
             "stack": [".NET", "Mono"]
           }
         ]
@@ -66,15 +85,15 @@
         "period": "2013 - 2015",
         "jobs": [
           {
-            "title": "Developing centralized remote data access GIS extensions.",
+            "title": "Developing centralized remote data access GIS extensions",
             "stack": ["C++", "PostgreSQL"]
           },
           {
-            "title": "Creating Windows Shell Extension.",
+            "title": "Creating Windows Shell Extension",
             "stack": ["C++", "WinAPI"]
           },
           {
-            "title": "Making GIS Web-oriented cartographic projects.",
+            "title": "Making GIS Web-oriented cartographic projects",
             "stack": ["HTML", "JavaScript", "Python"]
           }
         ]
@@ -226,6 +245,7 @@
   "tools": {
     "title": "Tools",
     "details": [
+      { "name": "Django", "value": 90 },
       { "name": "FastAPI", "value": 85 },
       { "name": "Aiohttp", "value": 75 },
       { "name": "Flask", "value": 70 },
@@ -248,7 +268,8 @@
     "title": "Languages",
     "details": [
       { "name": "Russian", "value": 100 },
-      { "name": "English", "value": 70 }
+      { "name": "English", "value": 70 },
+      { "name": "Japanese", "value": 10 }
     ]
   }
 }

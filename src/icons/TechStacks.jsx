@@ -98,6 +98,12 @@ export const ASPIcon = createIcon({
   displayName: 'ASP Icon'
 })
 
+export const DjangoIcon = createIcon({
+  d: 'M10.996 0v5.932a7.21 7.21 0 0 0-1.816-.2C4.816 5.732 2 8.305 2 12.273c0 4.118 2.656 6.263 7.756 6.268 1.703 0 3.277-.15 5.416-.53V0h-4.176zm6.414 0v3.992h4.176V0H17.41zm.42 6.215v7.676c0 3.387-.188 4.673-.785 5.785-.57 1.087-1.462 1.8-3.305 2.605L17.615 24c1.843-.862 2.735-1.644 3.412-2.88.726-1.289.973-2.783.973-5.888V6.215h-4.17zM9.734 8.977c.516 0 .92.05 1.409.2v6.249c-.596.075-.974.1-1.436.1-2.14 0-3.305-1.144-3.305-3.212 0-2.125 1.221-3.337 3.332-3.337z',
+  viewBox: '0 0 24 24',
+  displayName: 'Django Icon'
+})
+
 /** Icon factory */
 export const getIcon = ({ name, props }) => {
   switch (name.toLowerCase()) {
@@ -145,6 +151,8 @@ export const getIcon = ({ name, props }) => {
     case 'asp':
     case 'asp.net':
       return <ASPIcon {...props} />
+    case 'django':
+      return <DjangoIcon {...props} />
     default:
       return <Icon {...props} />
   }

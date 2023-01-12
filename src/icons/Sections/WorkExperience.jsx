@@ -70,6 +70,23 @@ export const SelfEmployedIcon = createIcon({
   displayName: 'Self Employed Icon'
 })
 
+export const InlineTelecomSolutions = createIcon({
+  path: (
+    <g>
+      <path
+        d="m19.81 15.621 13 13.09 12.999-13.09 13.09-12.999H47.914L32.81 17.727 17.705 2.622H6.72ZM2.602 12.234v5.493L17.705 32.83 2.601 47.935V58.92L15.6 45.83 28.69 32.83 15.6 19.832 2.601 6.742Z"
+        fill="#969796"
+      />
+      <path
+        d="M58.897 11.29 47.912 22.09v26.302H22.648L11.845 59.378h47.053V36.035l-.002-1.22v-.173z"
+        fill="#d81146"
+      />
+    </g>
+  ),
+  viewBox: '0 0 61.5 62',
+  displayName: 'Inline Telecom Solutions Icon'
+})
+
 /** Icon factory */
 export const getIcon = ({ name, props }) => {
   switch (name) {
@@ -79,6 +96,8 @@ export const getIcon = ({ name, props }) => {
       return <UralGeoIcon {...props} />
     case 'company-self-employed':
       return <SelfEmployedIcon {...props} />
+    case 'inline-telecom-solutions':
+      return <InlineTelecomSolutions {...props} />
     default:
       return <Icon {...props} />
   }
