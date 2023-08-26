@@ -56,6 +56,7 @@ export default function Projects(props) {
                 {obj.stack.map((name) => (
                   <TechStackTag
                     mr={2}
+                    mt={1}
                     key={name}
                     name={name}
                     verticalAlign="baseline"

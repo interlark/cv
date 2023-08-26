@@ -70,6 +70,7 @@ export default function WorkExperience(props) {
                     {job.stack.map((name) => (
                       <TechStackTag
                         mr={2}
+                        mt={1}
                         key={name}
                         name={name}
                         verticalAlign="baseline"

@@ -70,7 +70,7 @@ export const SelfEmployedIcon = createIcon({
   displayName: 'Self Employed Icon'
 })
 
-export const InlineTelecomSolutions = createIcon({
+export const InlineTelecomSolutionsIcon = createIcon({
   path: (
     <g>
       <path
@@ -87,6 +87,32 @@ export const InlineTelecomSolutions = createIcon({
   displayName: 'Inline Telecom Solutions Icon'
 })
 
+export const RealisteIcon = createIcon({
+  path: (
+    <g>
+      <defs>
+        <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="18.612" y1="629.68" x2="220.87"
+          y2="57.609" gradientTransform="matrix(.07087 0 0 .07087 14.058 .025)">
+          <stop offset=".049" stopColor="#00acff" />
+          <stop offset=".21" stopColor="#2193f3" />
+          <stop offset=".384" stopColor="#556bdf" />
+          <stop offset=".588" stopColor="#7b4ed1" />
+          <stop offset=".767" stopColor="#923cc8" />
+          <stop offset=".938" stopColor="#9b35c5" />
+        </linearGradient>
+      </defs>
+      <path
+        d="M18.023 0h17.32a4.082 4.082 0 014.083 4.078v35.25a4.083 4.083 0 01-4.082 4.082h-17.32a4.083 4.083 0 01-4.083-4.082V4.078A4.082 4.082 0 0118.023 0zm0 0"
+        fill="#fff" />
+      <path
+        d="M12.246.031C5.461.06 0 5.492 0 12.277v25.45c0 6.785 5.46 12.25 12.246 12.25h25.488a12.222 12.222 0 0012.246-12.25v-25.45C49.98 5.492 44.516.113 37.734.031L35.391 0c-.547.066-.832.555-1.075.898l-9.73 13.774a.558.558 0 00.457.875h7.289c.45 0 .711.5.453.871L15.883 40.387c-.246.343-.785.074-.649-.328l6.54-20.02a.55.55 0 00-.524-.723h-6.64a.554.554 0 01-.524-.722L19.852.91a.754.754 0 00-.606-.91zm0 0"
+        fill="url(#a)" />
+    </g>
+  ),
+  viewBox: '0 0 50 50',
+  displayName: 'Realiste Company Icon'
+})
+
 /** Icon factory */
 export const getIcon = ({ name, props }) => {
   switch (name) {
@@ -97,7 +123,9 @@ export const getIcon = ({ name, props }) => {
     case 'company-self-employed':
       return <SelfEmployedIcon {...props} />
     case 'inline-telecom-solutions':
-      return <InlineTelecomSolutions {...props} />
+      return <InlineTelecomSolutionsIcon {...props} />
+    case 'realiste':
+      return <RealisteIcon {...props} />
     default:
       return <Icon {...props} />
   }

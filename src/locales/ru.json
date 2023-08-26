@@ -1,5 +1,5 @@
 {
-  "title": "Middle Python Developer",
+  "title": "Python Developer",
 
   "profile_name": "Андрей Трофимов",
 
@@ -8,8 +8,8 @@
   "about_me": {
     "title": "Обо мне",
     "details": [
-      "Python программист с многогранным опытом в Web разработке.",
-      "Использую накопившийся опыт, а также постигаю новые технологии и инструменты для реализации своих идей в мире клиент-серверных приложений."
+      "Python программист с многогранным опытом в Web разработке",
+      "Использую накопившийся опыт, а также постигаю новые технологии и инструменты для реализации своих идей в мире клиент-серверных приложений"
     ]
   },
 
@@ -27,10 +27,30 @@
     "title": "Опыт работы",
     "details": [
       {
+        "title": "Realiste",
+        "icon": "realiste",
+        "link": "https://realiste.io",
+        "period": "2023 - …",
+        "jobs": [
+          {
+            "title": "Разработка микросервисов автоматической обработки и интеллектуального анализа данных",
+            "stack": ["Python", "HTML", "JavaScript", "Docker"]
+          },
+          {
+            "title": "Создание геопространственных и аналитических ресурсов в сфере недвижимости",
+            "stack": ["Python", "Docker"]
+          },
+          {
+            "title": "Поддержка масштабируемых конвейеров анализа данных и ETL",
+            "stack": ["Python", "Gitlab CI", "Docker"]
+          }
+        ]
+      },
+      {
         "title": "Inline Telecom Solutions",
         "icon": "inline-telecom-solutions",
-        "link": "https://inlinetelecom.ru/about",
-        "period": "2022 - …",
+        "link": "https://inlinetelecom.ru",
+        "period": "2022 - 2023",
         "jobs": [
           {
             "title": "Web-разработка",
@@ -165,8 +185,11 @@
     "details": [
       { "name": "Спорт", "icon": "running_man" },
       { "name": "Японский язык", "icon": "hiragana" },
+      { "name": "Sega / NES", "icon": "sega-nes" },
+      { "name": "Сhiptune", "icon": "note" },
       { "name": "ИБ", "icon": "shield" },
-      { "name": "Arduino", "icon": "arduino" }
+      { "name": "Arduino", "icon": "arduino" },
+      { "name": "Путешествия", "icon": "plane" }
     ]
   },
 
@@ -230,13 +253,16 @@
     "title": "Навыки",
     "details": [
       { "name": "Python", "value": 95 },
-      { "name": "JavaScript", "value": 80 },
-      { "name": "HTML", "value": 80 },
-      { "name": "CSS", "value": 80 },
+      { "name": "JavaScript", "value": 90 },
+      { "name": "HTML", "value": 85 },
+      { "name": "CSS", "value": 85 },
       { "name": "SQL / PostgreSQL", "value": 80 },
-      { "name": "C# / C++", "value": 60 },
-      { "name": "Bash", "value": 60 },
-      { "name": "Docker", "value": 60 },
+      { "name": "Docker", "value": 80 },
+      { "name": "C#", "value": 75 },
+      { "name": ".NET", "value": 75 },
+      { "name": "C", "value": 70 },
+      { "name": "C++", "value": 70 },
+      { "name": "Bash", "value": 70 },
       { "name": "Git", "value": 75 },
       { "name": "Inkscape", "value": 60 }
     ]
@@ -248,14 +274,17 @@
       { "name": "Django", "value": 90 },
       { "name": "FastAPI", "value": 85 },
       { "name": "Aiohttp", "value": 75 },
-      { "name": "Flask", "value": 70 },
-      { "name": "SQLAlchemy", "value": 70 },
-      { "name": "Asyncio", "value": 70 },
+      { "name": "Flask", "value": 80 },
+      { "name": "SQLAlchemy", "value": 75 },
+      { "name": "Asyncio", "value": 75 },
       { "name": "Pytest", "value": 80 },
       { "name": "Flake8", "value": 90 },
       { "name": "Mypy", "value": 80 },
       { "name": "Tkinter", "value": 70 },
-      { "name": "CDP / Selenium", "value": 75 },
+      { "name": "CDP", "value": 80 },
+      { "name": "Selenium / Playwright", "value": 80 },
+      { "name": "P4A", "value": 60 },
+      { "name": "OpenCV", "value": 70 },
       { "name": "ReactJS", "value": 60 },
       { "name": "Chakra UI", "value": 60 },
       { "name": "Parcel", "value": 60 },
@@ -268,8 +297,8 @@
     "title": "Языки",
     "details": [
       { "name": "Русский", "value": 100 },
-      { "name": "Английский", "value": 70 },
-      { "name": "Японский", "value": 10 }
+      { "name": "Английский", "value": 85 },
+      { "name": "Японский", "value": 15 }
     ]
   }
 }
