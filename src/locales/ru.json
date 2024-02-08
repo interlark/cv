@@ -27,30 +27,10 @@
     "title": "Опыт работы",
     "details": [
       {
-        "title": "Realiste",
-        "icon": "realiste",
-        "link": "https://realiste.io",
-        "period": "2023 - …",
-        "jobs": [
-          {
-            "title": "Разработка микросервисов автоматической обработки и интеллектуального анализа данных",
-            "stack": ["Python", "HTML", "JavaScript", "Docker"]
-          },
-          {
-            "title": "Создание геопространственных и аналитических ресурсов в сфере недвижимости",
-            "stack": ["Python", "Docker"]
-          },
-          {
-            "title": "Поддержка масштабируемых конвейеров анализа данных и ETL",
-            "stack": ["Python", "Gitlab CI", "Docker"]
-          }
-        ]
-      },
-      {
         "title": "Inline Telecom Solutions",
         "icon": "inline-telecom-solutions",
         "link": "https://inlinetelecom.ru",
-        "period": "2022 - 2023",
+        "period": "2022 - …",
         "jobs": [
           {
             "title": "Web-разработка",
@@ -63,6 +43,26 @@
           {
             "title": "Поддержка и развитие проектов для сетей крупных операторов связи",
             "stack": ["Python", "FastAPI", "ReactJS"]
+          }
+        ]
+      },
+      {
+        "title": "Realiste",
+        "icon": "realiste",
+        "link": "https://realiste.io",
+        "period": "2023 - 2024",
+        "jobs": [
+          {
+            "title": "Разработка микросервисов автоматической обработки и интеллектуального анализа данных",
+            "stack": ["Python", "HTML", "JavaScript", "Docker"]
+          },
+          {
+            "title": "Создание геопространственных и аналитических ресурсов в сфере недвижимости",
+            "stack": ["Python", "Docker"]
+          },
+          {
+            "title": "Поддержка масштабируемых конвейеров анализа данных и ETL",
+            "stack": ["Python", "Gitlab CI", "Docker"]
           }
         ]
       },

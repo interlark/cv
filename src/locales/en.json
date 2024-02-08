@@ -27,30 +27,10 @@
     "title": "Work experience",
     "details": [
       {
-        "title": "Realiste",
-        "icon": "realiste",
-        "link": "https://realiste.io",
-        "period": "2023 - …",
-        "jobs": [
-          {
-            "title": "Developing microservices for automated data processing and intelligent data analysis",
-            "stack": ["Python", "HTML", "JavaScript", "Docker"]
-          },
-          {
-            "title": "Building geo-spatial and real estate analytics assets",
-            "stack": ["Python", "Docker"]
-          },
-          {
-            "title": "Maintaining scalable data analytics pipelines and ETL",
-            "stack": ["Python", "Gitlab CI", "Docker"]
-          }
-        ]
-      },
-      {
         "title": "Inline Telecom Solutions",
         "icon": "inline-telecom-solutions",
         "link": "https://inlinetelecom.ru",
-        "period": "2022 - 2023",
+        "period": "2022 - …",
         "jobs": [
           {
             "title": "Web-development",
@@ -63,6 +43,26 @@
           {
             "title": "Supporting and developing projects for networks of large telecom operators",
             "stack": ["Python", "FastAPI", "ReactJS"]
+          }
+        ]
+      },
+      {
+        "title": "Realiste",
+        "icon": "realiste",
+        "link": "https://realiste.io",
+        "period": "2023 - 2024",
+        "jobs": [
+          {
+            "title": "Developing microservices for automated data processing and intelligent data analysis",
+            "stack": ["Python", "HTML", "JavaScript", "Docker"]
+          },
+          {
+            "title": "Building geo-spatial and real estate analytics assets",
+            "stack": ["Python", "Docker"]
+          },
+          {
+            "title": "Maintaining scalable data analytics pipelines and ETL",
+            "stack": ["Python", "Gitlab CI", "Docker"]
           }
         ]
       },
