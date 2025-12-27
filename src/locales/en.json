@@ -1,0 +1,304 @@
+{
+  "title": "Python Developer",
+
+  "profile_name": "Andy Trofimov",
+
+  "language": "Language",
+
+  "about_me": {
+    "title": "About me",
+    "details": [
+      "Python programmer with extensive experience in Web development",
+      "I use accumulated experience as well as comprehend new technologies and tools to implement my ideas in the world of client-server applications"
+    ]
+  },
+
+  "education": {
+    "title": "Education",
+    "details": [
+      "Bachelor of Computer Science",
+      "Perm State University",
+      "Faculty of Mechanics and Mathematics",
+      "2009 - 2014"
+    ]
+  },
+
+  "work_experience": {
+    "title": "Work experience",
+    "details": [
+      {
+        "title": "Inline Telecom Solutions",
+        "icon": "inline-telecom-solutions",
+        "link": "https://inlinetelecom.ru",
+        "period": "2022 - …",
+        "jobs": [
+          {
+            "title": "Web-development",
+            "stack": ["Python", "JavaScript", "HTML", "CSS"]
+          },
+          {
+            "title": "Developing systems for collecting and analyzing Web marketing data, network activity, resources accounting",
+            "stack": ["Python", "Django", "PostgreSQL"]
+          },
+          {
+            "title": "Supporting and developing projects for networks of large telecom operators",
+            "stack": ["Python", "FastAPI", "ReactJS"]
+          }
+        ]
+      },
+      {
+        "title": "Realiste",
+        "icon": "realiste",
+        "link": "https://realiste.io",
+        "period": "2023 - 2024",
+        "jobs": [
+          {
+            "title": "Developing microservices for automated data processing and intelligent data analysis",
+            "stack": ["Python", "HTML", "JavaScript", "Docker"]
+          },
+          {
+            "title": "Building geo-spatial and real estate analytics assets",
+            "stack": ["Python", "Docker"]
+          },
+          {
+            "title": "Maintaining scalable data analytics pipelines and ETL",
+            "stack": ["Python", "Gitlab CI", "Docker"]
+          }
+        ]
+      },
+      {
+        "title": "Self-employed",
+        "icon": "company-self-employed",
+        "link": "https://interlark.ru",
+        "period": "2018 - 2022",
+        "jobs": [
+          {
+            "title": "Developing turnkey projects, such as Web sites and services, Telegram bots, Blender plugins, mobile apps, parsers and etc.",
+            "stack": ["Python", "JavaScript", "HTML", "CSS"]
+          }
+        ]
+      },
+      {
+        "title": "ICS",
+        "icon": "company-ics",
+        "link": "https://ivs-corp.ru",
+        "period": "2016 - 2018",
+        "jobs": [
+          {
+            "title": "Developing and maintaining Web services",
+            "stack": ["ASP.NET", "C#", "PostgreSQL"]
+          },
+          {
+            "title": "Writing, debugging and testing Web components",
+            "stack": ["HTML", "JavaScript", "C#"]
+          },
+          {
+            "title": "Profiling and optimizing backends",
+            "stack": [".NET", "Mono"]
+          }
+        ]
+      },
+      {
+        "title": "Ural Geo",
+        "icon": "company-uralgeo",
+        "link": "https://уралгео.рф",
+        "period": "2013 - 2015",
+        "jobs": [
+          {
+            "title": "Developing centralized remote data access GIS extensions",
+            "stack": ["C++", "PostgreSQL"]
+          },
+          {
+            "title": "Creating Windows Shell Extension",
+            "stack": ["C++", "WinAPI"]
+          },
+          {
+            "title": "Making GIS Web-oriented cartographic projects",
+            "stack": ["HTML", "JavaScript", "Python"]
+          }
+        ]
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Personal projects",
+    "details": [
+      {
+        "title": "USTVGO IPTV",
+        "icon": "project-ustvgo",
+        "stack": ["Python", "Aiohttp", "Tkinter"],
+        "link": "https://github.com/interlark/ustvgo-iptv",
+        "description": "Cross-platform traffic proxying application that allows you to watch free IPTV using well-known USTVGO service.",
+        "features_title": "Features",
+        "features": [
+          "Auto auth-key rotation",
+          "Built-in auto-update TV Guide",
+          "Dark and light icons themes",
+          "GUI"
+        ]
+      },
+      {
+        "title": "SMS Poll",
+        "icon": "project-smspoll",
+        "stack": ["Python", "FastAPI", "Tortoise ORM", "ReactJS"],
+        "link": "https://github.com/interlark/sms-poll",
+        "description": "Mobile app that let you create text message audience polling with your Android phone for your audience during competitions, conferences or any other meetings.",
+        "features_title": "Features",
+        "features": [
+          "Doesn't need to be connected to a PC, Internet or any other 3rd-party services",
+          "Dark and light UI themes"
+        ]
+      },
+      {
+        "title": "Parser 2GIS",
+        "icon": "project-parser2gis",
+        "stack": ["Python", "Tkinter", "CDP"],
+        "link": "https://github.com/interlark/parser-2gis",
+        "description": "Advanced scraper for online catalog 2GIS which is useful for doing marketing analytics, growing customer base and finding new business partners.",
+        "features_title": "Features",
+        "features": [
+          "Antibot detection bypass",
+          "URLs generator with city and rubrics filters",
+          "CSV and JSON output formats",
+          "GUI"
+        ]
+      },
+      {
+        "title": "QDC Converter",
+        "icon": "project-qdcconverter",
+        "stack": ["Python", "Tkinter", "I18N"],
+        "link": "https://github.com/interlark/qdc-converter",
+        "description": "Desktop application that converts Garmin Quickdraw™ proprietary binary fishing map into open CSV tables and GRD rasters.",
+        "features_title": "Features",
+        "features": [
+          "Support multiprocessing calculations for speeding up processing",
+          "CSV and GRD output formats",
+          "GUI"
+        ]
+      }
+    ]
+  },
+
+  "interests": {
+    "title": "Interests",
+    "details": [
+      { "name": "Sport", "icon": "running_man" },
+      { "name": "Japanese language", "icon": "hiragana" },
+      { "name": "Sega / NES", "icon": "sega-nes" },
+      { "name": "Сhiptune", "icon": "note" },
+      { "name": "InfoSec", "icon": "shield" },
+      { "name": "Arduino", "icon": "arduino" },
+      { "name": "Traveling", "icon": "plane" }
+    ]
+  },
+
+  "certificates": {
+    "title": "Certificates",
+    "details": [
+      {
+        "name": "Software Engineering Methods",
+        "url": "https://www.intuit.ru/verifydiplomas/101129630"
+      },
+      {
+        "name": "Standardization and Certification of Software",
+        "url": "https://www.intuit.ru/verifydiplomas/101129880"
+      },
+      {
+        "name": "Analysis of the Requirements for Information Systems",
+        "url": "https://www.intuit.ru/verifydiplomas/101129804"
+      },
+      {
+        "name": "The basics of software engineering managements",
+        "url": "https://www.intuit.ru/verifydiplomas/101129771"
+      },
+      {
+        "name": "Information Systems Project Management",
+        "url": "https://www.intuit.ru/verifydiplomas/101129238"
+      }
+    ]
+  },
+
+  "contacts": {
+    "title": "Contacts",
+    "details": [
+      {
+        "icon": "email",
+        "address": "interlark@gmail.com",
+        "href": "mailto:interlark@gmail.com",
+        "is_external": false
+      },
+      {
+        "icon": "telegram",
+        "address": "https://t.me/interlark",
+        "href": "https://t.me/interlark",
+        "is_external": true
+      },
+      {
+        "icon": "phone",
+        "address": "+7 (908) 277-77-63",
+        "href": "tel:+79082777763",
+        "is_external": false
+      },
+      {
+        "icon": "github",
+        "address": "https://github.com/interlark",
+        "href": "https://github.com/interlark",
+        "is_external": true
+      }
+    ]
+  },
+
+  "skills": {
+    "title": "Skills",
+    "details": [
+      { "name": "Python", "value": 95 },
+      { "name": "JavaScript", "value": 90 },
+      { "name": "HTML", "value": 85 },
+      { "name": "CSS", "value": 85 },
+      { "name": "SQL / PostgreSQL", "value": 80 },
+      { "name": "Docker", "value": 80 },
+      { "name": "C#", "value": 75 },
+      { "name": ".NET", "value": 75 },
+      { "name": "C", "value": 70 },
+      { "name": "C++", "value": 70 },
+      { "name": "Bash", "value": 70 },
+      { "name": "Git", "value": 75 },
+      { "name": "Inkscape", "value": 60 }
+    ]
+  },
+
+  "tools": {
+    "title": "Tools",
+    "details": [
+      { "name": "Django", "value": 90 },
+      { "name": "FastAPI", "value": 85 },
+      { "name": "Aiohttp", "value": 75 },
+      { "name": "Flask", "value": 80 },
+      { "name": "SQLAlchemy", "value": 75 },
+      { "name": "Asyncio", "value": 75 },
+      { "name": "Pytest", "value": 80 },
+      { "name": "Flake8", "value": 90 },
+      { "name": "Mypy", "value": 80 },
+      { "name": "Tkinter", "value": 70 },
+      { "name": "CDP", "value": 80 },
+      { "name": "Selenium / Playwright", "value": 80 },
+      { "name": "P4A", "value": 60 },
+      { "name": "OpenCV", "value": 70 },
+      { "name": "ReactJS", "value": 60 },
+      { "name": "Chakra UI", "value": 60 },
+      { "name": "Parcel", "value": 60 },
+      { "name": "VSCode", "value": 90 },
+      { "name": "Linux / Debian", "value": 90 }
+    ]
+  },
+
+  "languages": {
+    "title": "Languages",
+    "details": [
+      { "name": "Russian", "value": 100 },
+      { "name": "English", "value": 85 },
+      { "name": "Japanese", "value": 15 }
+    ]
+  }
+}
