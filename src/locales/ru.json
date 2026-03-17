@@ -42,7 +42,7 @@
           },
           {
             "title": "Поддержка и развитие проектов для сетей крупных операторов связи",
-            "stack": ["Python", "FastAPI", "ReactJS"]
+            "stack": ["Python", "Django", "Vue"]
           }
         ]
       },

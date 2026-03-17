@@ -110,6 +110,12 @@ export const DockerIcon = createIcon({
   displayName: 'Docker Icon'
 })
 
+export const VueIcon = createIcon({
+  d: 'M18.23 3.016h-3.605L12 7.168 9.75 3.016H1.5L12 21 22.5 3.016Zm-14.12 1.5h2.523L12 13.805l5.363-9.29h2.52L12 18.024Zm0 0',
+  viewBox: '0 0 24 24',
+  displayName: 'Vue Icon'
+})
+
 export const GitlabCIIcon = createIcon({
   d: 'M910.5 553.2l-109-370.8c-6.8-20.4-23.1-34.1-44.9-34.1s-39.5 12.3-46.3 32.7l-72.2 215.4H386.2L314 181.1c-6.8-20.4-24.5-32.7-46.3-32.7s-39.5 13.6-44.9 34.1L113.9 553.2c-4.1 13.6 1.4 28.6 12.3 36.8l385.4 289 386.7-289c10.8-8.1 16.3-23.1 12.2-36.8z',
   viewBox: '0 0 1024 1024',
@@ -169,6 +175,8 @@ export const getIcon = ({ name, props }) => {
       return <DjangoIcon {...props} />
     case 'docker':
       return <DockerIcon {...props} />
+    case 'vue':
+      return <VueIcon {...props} />
     case 'gitlab-ci':
       return <GitlabCIIcon {...props} />
     default:

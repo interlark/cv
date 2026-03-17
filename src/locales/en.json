@@ -42,7 +42,7 @@
           },
           {
             "title": "Supporting and developing projects for networks of large telecom operators",
-            "stack": ["Python", "FastAPI", "ReactJS"]
+            "stack": ["Python", "Django", "Vue"]
           }
         ]
       },
